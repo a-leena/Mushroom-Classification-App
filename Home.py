@@ -7,7 +7,7 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="expanded"
 )
-st.sidebar.markdown("🔗[Github Repository](https://github.com/a-leena/Mushroom_Classification)")
+st.sidebar.markdown("🔗[Github Repository](https://github.com/a-leena/Mushroom-Classification-App/tree/main/notebooks)")
 
 st.title("Mushroom Classification Project")
 st.header("Project Overview")
