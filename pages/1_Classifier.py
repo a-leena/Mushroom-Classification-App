@@ -71,4 +71,8 @@ if submit:
     input_df = pd.DataFrame(data=[input_encoded])
     prediction = dt_model.predict(input_df)[0]
     result = "🍽️Edible" if prediction==0 else "☠️Poisonous"
-    st.success(f"##### This mushroom is predicted to be **{result}** !")
+    if result=="🍽️Edible":
+        st.success(f"##### This mushroom is predicted to be **{result}** !")
+    else:
+        st.error(f"##### This mushroom is predicted to be **{result}** !")
+
