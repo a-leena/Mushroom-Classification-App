@@ -17,19 +17,12 @@ st.markdown("""To carry out this task in Python some essential libraries used ar
             _seaborn_ for data visualization.""")
 st.divider()
 st.header("🗺️ What You Can Explore")
-col1, col2 = st.columns(spec=2, gap="large")
+st.subheader("Classifier")
+st.write("Choose the mushroom's physical traits and predict if it's edible or poisonous.")
+st.subheader("Dataset Overview")
+st.write("Understand the structure, attributes, and preprocessing of the mushroom dataset.")
+st.subheader("Feature Selection")
+st.write("See how the dataset was reduced from 22 features to the 6 most predictive ones.")
 
-with col1:
-    st.subheader("Classifier")
-    st.write("Choose the mushroom's physical traits and predict if it's edible or poisonous.")
-
-with col2:
-    st.subheader("Dataset Overview")
-    st.write("Understand the structure, attributes, and preprocessing of the mushroom dataset.")
-    
-col3, col4 = st.columns(spec=2, gap="large")
-with col3:
-    st.subheader("Feature Selection")
-    st.write("See how the dataset was reduced from 22 features to the 6 most predictive ones.")
 
 
