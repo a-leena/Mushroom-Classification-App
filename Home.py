@@ -33,7 +33,3 @@ with col3:
     st.write("See how the dataset was reduced from 22 features to the 6 most predictive ones.")
 
 
-with col4:
-    st.subheader("Model Comparisons")
-    st.write("Explore how various models performed and why the final one was chosen.")
-
